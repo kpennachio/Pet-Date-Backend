@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+puts "begin seed"
 
 oreo = Pet.create(
 	name: "Oreo",
@@ -245,3 +246,5 @@ felix = Pet.create(
  plays_well: true,
  picture: "public/Pet_Pictures/Felix.JPG"
 )
+
+puts "finished seeding"
