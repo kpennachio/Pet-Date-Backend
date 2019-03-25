@@ -1,6 +1,6 @@
 class Api::V1::PetsController < ApplicationController
   before_action :find_pet, only: [:update]
-  
+
   def index
     @pets = Pet.all
     render json: @pets
@@ -18,7 +18,7 @@ class Api::V1::PetsController < ApplicationController
   private
 
   def pet_params
-    params.permit(:title, :content)
+    params.permit(:name, :age, :species, :breed, :hobbies, :plays_well, :picture, :bio)
   end
 
   def find_pet
