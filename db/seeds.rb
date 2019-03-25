@@ -60,7 +60,7 @@ kilo = Pet.create(
 maya = Pet.create(
 	name: "Maya",
 	age: 8,
-	Species: "Dog",
+	species: "Dog",
 	breed: "Mini Xoloitzcuintli",
 	hobbies: "Walking, Sleeping, Eating, Being Pet, Playing with Toys, Cuddling, Hiding Under Bed",
 	plays_well: false,
@@ -79,7 +79,7 @@ lila = Pet.create(
 
 jake = Pet.create(
 	name: "Jake",
-	age: 9
+	age: 9,
 	species: "Dog",
 	breed: "Labrador Retriever",
 	hobbies: "Sleeping, Eating, Being Pet, Fetch, Barking, Running",
