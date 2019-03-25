@@ -14,7 +14,7 @@ oreo = Pet.create(
 	breed:  "Domestic Shorthair",
 	hobbies: "Sleeping, Meowing, running",
 	plays_well: false,
-	picture: "public/Pet_Pictures/Oreo.JPG"
+	picture: "./Pet_Pictures/Oreo.JPG"
 )
 
 penny = Pet.create(
@@ -24,7 +24,7 @@ penny = Pet.create(
 	breed: "French Bulldog",
 	hobbies: "Walking, Sleeping, Eating, Being Pet, Barking",
 	plays_well: true,
-	picture: "public/Pet_Pictures/Penny.JPG"
+	picture: "./Pet_Pictures/Penny.jpeg"
 )
 
 cheesecake = Pet.create(
@@ -34,7 +34,7 @@ cheesecake = Pet.create(
 	breed: "Dumpster Cat",
   hobbies: "Sleeping, Eating, Being Pet, Meowing, Scratching Posts, Playing with Toys, Cuddling, Hiding Under Bed",
 	plays_well: false,
-	picture: "public/Pet_Pictures/Cheesecake.JPG"
+	picture: "./Pet_Pictures/Cheesecake.jpg"
 )
 
 nova = Pet.create(
@@ -44,7 +44,7 @@ nova = Pet.create(
 	breed: "Golden Retriever",
 	hobbies: "Sleeping, Being Pet, Rolling around",
 	plays_well: true,
-	picture: "public/Pet_Pictures/Nova.jpeg"
+	picture: "./Pet_Pictures/Nova.jpeg"
 )
 
 kilo = Pet.create(
@@ -54,7 +54,7 @@ kilo = Pet.create(
 	breed: "Shetland Sheepdog",
   hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Barking, Rolling around, Running, Scratching Posts, Playing with Toys, Cuddling, Hiding Under Bed",
 	plays_well: true,
-	picture: "public/Pet_Pictures/Kilo.jpg"
+	picture: "./Pet_Pictures/Kilo.jpg"
 )
 
 maya = Pet.create(
@@ -64,7 +64,7 @@ maya = Pet.create(
 	breed: "Mini Xoloitzcuintli",
 	hobbies: "Walking, Sleeping, Eating, Being Pet, Playing with Toys, Cuddling, Hiding Under Bed",
 	plays_well: false,
-	picture: "public/Pet_Pictures/Maya.jpg"
+	picture: "./Pet_Pictures/Maya.JPG"
 )
 
 lila = Pet.create(
@@ -74,7 +74,7 @@ lila = Pet.create(
 	breed: "Shipperke",
   hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Barking, Rolling around, Running, Playing with Toys, Cuddling, Hiding Under Bed",
 	plays_well: false,
-	picture: "public/Pet_Pictures/Lila.jpeg"
+	picture: "./Pet_Pictures/Lila.jpeg"
 )
 
 jake = Pet.create(
@@ -84,7 +84,7 @@ jake = Pet.create(
 	breed: "Labrador Retriever",
 	hobbies: "Sleeping, Eating, Being Pet, Fetch, Barking, Running",
 	plays_well: true,
-	picture: "public/Pet_Pictures/Jake.jpg"
+	picture: "./Pet_Pictures/Pug.PNG"
 )
 
 millie = Pet.create(
@@ -94,7 +94,7 @@ millie = Pet.create(
 	breed: "Mutt - Lab, American Terrier, German Shepherd",
 	hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Playing with Toys, Chasing your Tail, Cuddling, Hiding Under Bed, Staring deeply into your eyes, Wearing my rain jacket, Sitting and waiting patiently for you to drop food, Making new dog friends, especially the dogs that want nothing to do with Millie, Modeling for a monthly-calendar",
 	plays_well: true,
-	picture: "public/Pet_Pictures/Millie.jpg"
+	picture: "./Pet_Pictures/Millie.jpg"
 )
 
 letty = Pet.create(
@@ -104,7 +104,7 @@ letty = Pet.create(
  breed: "Chihuahua",
  hobbies: "Being Pet, Fetch, Rolling around, Running, Playing with Toys, Playing 'Simba', Doing what my older sister Mabel does, doing flips",
  plays_well: true,
- picture: "public/Pet_Pictures/Letty.jpg"
+ picture: "./Pet_Pictures/Letty.jpg"
 )
 
 mabel = Pet.create(
@@ -114,7 +114,7 @@ mabel = Pet.create(
  breed: "Mutt - Pug/Pit mix",
  hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Rolling around, Cuddling, Hiking, Leading the Pack, Walking with my Head up, Being with Humans, not dogs, (even though I tolerate Letty and Teddy)",
  plays_well: true,
- picture: "public/Pet_Pictures/Mabel.jpg"
+ picture: "./Pet_Pictures/Mabel.jpg"
 )
 
 otto = Pet.create(
@@ -124,7 +124,7 @@ otto = Pet.create(
  breed: "Dashund",
  hobbies: "Sleeping, Cuddling, Being badass, wearing skull sweaters, watching from afar",
  plays_well: true,
- picture: "public/Pet_Pictures/Otto.JPG"
+ picture: "./Pet_Pictures/Otto.JPG"
 )
 
 lucy = Pet.create(
@@ -134,7 +134,7 @@ lucy = Pet.create(
  breed: "Poodle",
  hobbies: "Walking, Being Pet, Rolling around, Running, Playing with Toys, attending my friends birthday parties",
  plays_well: true,
- picture: "public/Pet_Pictures/Lucy.JPG"
+ picture: "./Pet_Pictures/Lucy.JPG"
 )
 
 athena = Pet.create(
@@ -144,7 +144,7 @@ athena = Pet.create(
  breed: "Mutt",
  hobbies: "Sleeping, Being Pet, Cuddling, being sweet",
  plays_well: true,
- picture: "public/Pet_Pictures/Athena.JPG"
+ picture: "./Pet_Pictures/Athena.JPG"
 )
 
 finley = Pet.create(
@@ -154,7 +154,7 @@ finley = Pet.create(
  breed: "Mutt - Bulldog mix",
  hobbies: "Sleeping, Being Pet, Playing with Toys, Cuddling, the kong, jumping over hurdles",
  plays_well: true,
- picture: "public/Pet_Pictures/Finley.JPG"
+ picture: "./Pet_Pictures/Finley.JPG"
 )
 
 kitty = Pet.create(
@@ -164,7 +164,7 @@ kitty = Pet.create(
  breed: "Mix - Husky/Lab",
  hobbies: "Sleeping, Eating, Rolling around, Playing with Toys",
  plays_well: true,
- picture: "public/Pet_Pictures/Kitty.JPG"
+ picture: "./Pet_Pictures/Kitty.JPG"
 )
 
 brody = Pet.create(
@@ -174,7 +174,7 @@ brody = Pet.create(
  breed: "French Bulldog",
  hobbies: "Walking, Chasing your Tail",
  plays_well: false,
- picture: "public/Pet_Pictures/Brody.JPG"
+ picture: "./Pet_Pictures/Brody.jpg"
 )
 
 harp = Pet.create(
@@ -184,7 +184,7 @@ harp = Pet.create(
  breed: "Domestic Shorthair",
  hobbies: "Eating, Meowing, Rolling around, Running, Cuddling, climbing",
  plays_well: false,
- picture: "public/Pet_Pictures/Harp.jpeg"
+ picture: "./Pet_Pictures/Harp.jpeg"
 )
 
 louie = Pet.create(
@@ -194,7 +194,7 @@ louie = Pet.create(
  breed: "Goldendoodle",
  hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Barking, Running, Playing with Toys, Cuddling, Hiding Under Bed",
  plays_well: true,
- picture: "public/Pet_Pictures/Louie.jpeg"
+ picture: "./Pet_Pictures/Louie.jpeg"
 )
 
 sebastian = Pet.create(
@@ -204,7 +204,7 @@ sebastian = Pet.create(
  breed: "Persian",
  hobbies: "Running, Playing with Toys, Hiding Under Bed",
  plays_well: true,
- picture: "public/Pet_Pictures/Sebastian.JPG"
+ picture: "./Pet_Pictures/Sebastian.jpg"
 )
 
 seagull = Pet.create(
@@ -214,7 +214,7 @@ seagull = Pet.create(
  breed: "Seagull",
  hobbies: "getting bread, flying",
  plays_well: false,
- picture: "public/Pet_Pictures/Mr_Seagull.JPG"
+ picture: "./Pet_Pictures/Mr_Seagull.jpg"
 )
 
 nala = Pet.create(
@@ -224,7 +224,7 @@ nala = Pet.create(
  breed: "Greater Swiss Mountain Dog",
  hobbies: "Walking, Sleeping, Eating, Being Pet, Barking, Running, Playing with Toys, Cuddling",
  plays_well: true,
- picture: "public/Pet_Pictures/Nala.JPG"
+ picture: "./Pet_Pictures/Nala.jpg"
 )
 
 layla = Pet.create(
@@ -234,7 +234,7 @@ layla = Pet.create(
  breed: "Australian Shepherd",
  hobbies: "Walking, Sleeping, Eating, Being Pet, Running, Playing with Toys",
  plays_well: true,
- picture: "public/Pet_Pictures/Layla.jpeg"
+ picture: "./Pet_Pictures/Layla.jpeg"
 )
 
 felix = Pet.create(
@@ -244,7 +244,7 @@ felix = Pet.create(
  breed: "Shih-Tzu",
  hobbies: "Walking, Sleeping, Eating, Being Pet, Fetch, Rolling around, Playing with Toys, Cuddling, Hiding Under Bed, Licking everything",
  plays_well: true,
- picture: "public/Pet_Pictures/Felix.JPG"
+ picture: "./Pet_Pictures/Felix.JPG"
 )
 
 puts "finished seeding"
