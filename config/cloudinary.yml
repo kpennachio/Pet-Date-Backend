@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: mod4flatiron010719
+  api_key: '899594855912872'
+  api_secret: ftyeRGy2OMeSDajAOIqwdst5xRM
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: mod4flatiron010719
+  api_key: '899594855912872'
+  api_secret: ftyeRGy2OMeSDajAOIqwdst5xRM
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: mod4flatiron010719
+  api_key: '899594855912872'
+  api_secret: ftyeRGy2OMeSDajAOIqwdst5xRM
+  enhance_image_tag: true
+  static_file_support: false
