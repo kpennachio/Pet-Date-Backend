@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :pets, only: [:index, :update]
       resources :posts, only: [:index, :create, :update, :destroy]
       resources :comments, only: [:index, :update]
-      resources :play_dates, only: [:index, :update]
+      resources :play_dates, only: [:index, :update, :create]
     end
   end
 end
