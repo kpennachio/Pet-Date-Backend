@@ -1,5 +1,5 @@
 class Api::V1::PlayDatesController < ApplicationController
-  before_action :find_play_date, only: [:update]
+  before_action :find_play_date, only: [:update, :destroy]
 
   def index
     @play_dates = PlayDate.all
@@ -22,6 +22,11 @@ class Api::V1::PlayDatesController < ApplicationController
     else
       render json: { errors: @play_date.errors.full_messages }, status: :unprocessible_entity
     end
+  end
+
+  def destroy
+    @play_date.destroy
+    head :no_content
   end
 
   private
