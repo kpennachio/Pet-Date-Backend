@@ -15,6 +15,20 @@ class Api::V1::PetsController < ApplicationController
     end
   end
 
+  def create
+    @pet = Pet.new(pet_params)
+    if @pet.save
+      render json: @pet, status: :accepted
+    else
+      render json: { errors: @pet.errors.full_messages }, status: :unprocessible_entity
+    end
+  end
+
+  def destroy
+    @pet = Pet.find(params[:id]).destroy
+
+  end
+
   private
 
   def pet_params
