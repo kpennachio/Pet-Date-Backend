@@ -1,24 +1,17 @@
-# README
+<h1>PETTR</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was made by Katie Pennachio and Chris Volpe.
 
-Things you may want to cover:
+<h3>About PETTR</h3>
 
-* Ruby version
+<p>A pet play-dating application. PETTR is the perfect way for pets to find their best furry friend. Pets(users) can send play-date requests to other pets in order to set up a date. Pets can either confirm or deny any play-date request depending on their interests.
+</p>
 
-* System dependencies
+<p>A pet can also create posts to talk about their day, what they are doing, or anything else that may be going on in their head.
+</p>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h3>Technology</h3>
+<ul>
+<li>Ruby on Rails API - current repository</li>
+<li>React - frontend repository: https://github.com/kpennachio/pettr-frontend</li>
+</ul>
